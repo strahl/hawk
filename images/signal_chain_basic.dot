@@ -1,0 +1,23 @@
+digraph G
+    {rankdir = LR node [shape=box]; 
+    A [label="Mikrofon"];
+    B [label="Analog-Digital\nUmwandlung"]
+    C [label="Vor-\nverarbeitung"];
+    D [label="Stimulations-\nstrategie"];
+    E [label="RF\nSpule"];
+    F [label="Dekoder"];
+    G [label="Puls\nErzeugung"];
+    H [label="Elektroden"];
+    I [label="Digital-Analog\nUmwandlung"]
+    J [label="Verstärker", penwidth=4]
+    K [label="Lautsprecher", penwidth=4]
+    A -> B; 
+    B -> C; 
+    C -> D[ label="CI" ]; 
+    D -> E; 
+    E -> F;
+    F -> G;
+    G -> H;
+    C -> I[ label="HG" ];
+    I -> J;
+    J -> K;}
