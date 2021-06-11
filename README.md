@@ -1,5 +1,4 @@
-# hawk
-Gastvortrag Cochlearimplantat- und Hörgerätetechnologie
+# Gastvortrag Cochlearimplantat- und Hörgerätetechnologie
 
 Diese Vorlesung ist ein interaktives Jupyter Notebook
 * verfügbar https://github.com/strahl/hawk
